@@ -4,4 +4,4 @@ def hello(request):
     return HttpResponse("Hello, India is a beautiful country which is known for its diverse culture and heritage!")
 
 def health_check(request):
-    return HttpResponse("OK", status=200)
+    return HttpResponse("OK, the service is healthy", status=200)
