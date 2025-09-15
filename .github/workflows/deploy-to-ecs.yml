@@ -8,7 +8,7 @@ on:
 env:
   AWS_REGION: ap-south-1
   ECR_REPOSITORY: my-django-app
-  ECS_SERVICE: ECS-ECR-TASK-DEFINATION-service-7bhc16dm
+  ECS_SERVICE: ECS-ECR-TASK-DEFINATION-service-2lgsxt8v
   ECS_CLUSTER: ECS-ECR-STAGING-API
   ECS_TASK_DEFINITION: myproject/myproject/.aws/task-definition.json
   CONTAINER_NAME: enalo-staging-api
