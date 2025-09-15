@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/', views.hello),
     path('health/', views.health_check),
+    path('top/', views.top),  
 ]
