@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 
 def hello(request):
-    return HttpResponse("My Custom App is a wonderfful Django Application")
+    return HttpResponse("My Custom App is a wonderfful Django Application..!!!")
 
 def health_check(request):
     return HttpResponse("OK, the service is healthy and is telling you to stop me for deploying again and again....!!!", status=200)
